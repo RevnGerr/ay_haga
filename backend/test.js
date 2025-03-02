@@ -8,6 +8,7 @@ function createServer(s) {
     const res = {res: 'res'}
 
     s(req, res)
+    console.log(s);
     
     return ''
 }
